@@ -130,16 +130,7 @@ const handleSubmit = async (e: React.FormEvent) => {
               {loading ? "Logging in..." : "Login 🔐"}
             </button>
           </form>
-
-          <p className="text-center mt-4 text-gray-600">
-            Don’t have an account?{" "}
-            <Link
-              to="/register"
-              style={{ color: "#ff69b4" }}
-              className="font-semibold hover:underline"
-            >
-              Sign up here
-            </Link>
+         </Link>
           </p>
         </div>
       </main>
