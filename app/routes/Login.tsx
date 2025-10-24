@@ -71,7 +71,6 @@ const handleSubmit = async (e: React.FormEvent) => {
       className="min-h-screen text-gray-800 flex flex-col"
       style={{ backgroundColor: "#fff0f5" }}
     >
-      <Navbar />
 
       <main className="flex-grow flex items-center justify-center p-8">
         <div className="card max-w-md w-full bg-white shadow-lg rounded-xl p-6">
